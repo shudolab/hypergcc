@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hypergcc"
+version = "0.1.0"
+description = ""
+authors = ["Shiori Hironaka <noahluces@gmail.com>"]
+readme = "readme.rst"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+matplotlib = "^3.9.0"
+pytest = "^8.2.1"
+numpy = "^1.26.4"
+scipy = "^1.13.0"
+snakemake = "^8.11.6"
+seaborn = "^0.13.2"
+networkx = "^3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
